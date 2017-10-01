@@ -1,0 +1,6 @@
+Graph: 
+0 807 
+807 0 
+
+Hamilton Path: 
+Cost = 807; Path = 0, 1

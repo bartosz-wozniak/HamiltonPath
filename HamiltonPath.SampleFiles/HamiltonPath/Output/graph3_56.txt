@@ -1,0 +1,7 @@
+Graph: 
+0 110 509 
+110 0 867 
+509 867 0 
+
+Hamilton Path: 
+Cost = 619; Path = 1, 0, 2
