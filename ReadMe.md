@@ -1,16 +1,15 @@
-﻿Użycie aplikacji konsolowej:
-- Uruchamiamy konsolę
-- Wpisujemy polecenie: ścieeżka/HamiltonPath.ConsoleApp nazwa_kmendy opcjonalne_parametry
-- Dostępne komendy:
-  - find-hamilton-path input_path output_path, gdzie input_path - ścieżka do pliku zawierającego graf w odpowiendim formacie, otput_path - ścieżka do pliku, w którym ma zostać zapisany wynik
-  - generate-graph n outpu_file, gdzie n - liczba wierzchołków w grafie, outpu_file jak wyżej
-  - help
-  - generate-and-compute - pomocnicza komenda licząca czasy wykonania
+# Hamilton Path
 
-  Aplikacja desktopowa:
-  Przycisk generate generuje plik testowy z grafem. Graf ma tyle wierzchołków, ile wynosi pole Verticles.
-  Przysik load ładuje plik z grafem do programu.
-  Przycisk Compute uruchamia algorytm dla wczytanego grafu.
-  Przysik Save zapisuje wynik do pliku, jeśli został wcześniej policzony
+It is our own implementation of advanced algorithm that finds Hamilton Path. It consists of both WPF and console app. Application can also generate graphs and serialize/deserialize data. 
+Autofac was used for dependency injection and xunit with moq for testing. 
+Console app is generic and can be invoked with multiple commands, nice architecture was used to resolve commands.
 
-  W oknie prezentowane są bieżące statusy, czy graf został wczytany oraz czy ścieżka została już policzona oraz jaka ona jest.
+More information can be found in documentation folder.
+
+## Purpose
+
+This project was developed during one of my courses at the University. It was a group project and it allowed me to get more practice in creating WPF desktop apllications and implementing algorithms.
+
+## Licence
+
+This project is under the MIT License.
